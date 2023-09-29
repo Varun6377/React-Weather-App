@@ -1,0 +1,67 @@
+@media (width >= 1000px) {
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    border: 5px;
+  }
+
+  .container button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: 340px;
+    padding: 8px 8px;
+    border-radius: 5px;
+  }
+
+  .container button:hover {
+    background-color: gray;
+    color: white;
+    margin-top: 25px;
+    margin-left: 340px;
+    padding: 8px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
+
+@media (640px < width < 1024px) {
+  .container {
+    max-width: 580px;
+    margin: 20px auto;
+    border: 5px;
+  }
+
+  .container button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 200px;
+    padding: 8px 8px;
+    border-radius: 5px;
+  }
+}
+
+@media (width <= 640px) {
+  .container {
+    max-width: 580px;
+    margin: 20px auto;
+    border: 5px;
+  }
+
+  .container button {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 155px;
+    padding: 8px 8px;
+    border-radius: 5px;
+  }
+}
