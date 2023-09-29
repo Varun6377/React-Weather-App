@@ -188,6 +188,7 @@
     cursor: pointer;
     margin-right: 20px;
     position: relative;
+    font-size: 22px;
     top: 26px;
     left: 82px;
   }
@@ -228,9 +229,9 @@
   .city {
     position: absolute;
     top: 165px;
-    right: 250px;
+    right: 230px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1;
     margin: 0;
     letter-spacing: 1px;
@@ -239,9 +240,9 @@
   .weather-description {
     position: absolute;
     top: 190px;
-    right: 240px;
+    right: 230px;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1;
     margin-top: 7px;
   }
@@ -250,13 +251,13 @@
     width: 100px;
     height: 100px;
     position: relative;
-    left: 40px;
+    left: 10px;
   }
 
   .temperature {
     position: relative;
     bottom: 88px;
-    right: 60px;
+    right: 100px;
     font-weight: 600;
     font-size: 100px;
   }
@@ -264,7 +265,7 @@
   .details {
     position: absolute;
     top: 400px;
-    left: 160px;
+    left: 100px;
   }
 
   .parameter-row {
@@ -295,6 +296,7 @@
     position: relative;
     top: 20px;
     left: 50px;
+    font-size: 20px;
   }
 
   .units p.active {
