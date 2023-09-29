@@ -228,7 +228,7 @@
   .city {
     position: absolute;
     top: 165px;
-    right: 330px;
+    right: 250px;
     font-weight: 600;
     font-size: 20px;
     line-height: 1;
@@ -239,7 +239,7 @@
   .weather-description {
     position: absolute;
     top: 190px;
-    right: 360px;
+    right: 240px;
     font-weight: 400;
     font-size: 22px;
     line-height: 1;
@@ -250,7 +250,7 @@
     width: 100px;
     height: 100px;
     position: relative;
-    left: 150px;
+    left: 40px;
   }
 
   .temperature {
