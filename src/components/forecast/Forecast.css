@@ -1,14 +1,13 @@
 .daily-item {
   background-color: #212121;
-  color: #fff;
+  color:#fff;
   border-radius: 15px;
-  height: 50px;
-  width: 300px;
+  height: 40px;
   margin: 5px;
   align-items: center;
   cursor: pointer;
   display: flex;
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px 20px;
 }
 
@@ -16,12 +15,12 @@
   width: 40px;
 }
 
-.daily-item.day {
+.daily-item .day {
   cursor: inherit;
   color: #fff;
   flex: 1 1;
   font-weight: 600;
-  margin-left: 515px;
+  margin-left: 15px;
 }
 
 .description {
@@ -37,7 +36,7 @@
 
 .daily-details-grid {
   background-color: #212121;
-  border-radius: 15px;
+  border-radius: 5px;
   grid-row-gap: 0;
   grid-column-gap: 15px;
   -webkit-column-gap: 15px;
@@ -62,8 +61,4 @@
 
 .daily-details-grid-item label:last-child {
   color: #fff;
-}
-
-@media (width <= 740px) {
- 
 }

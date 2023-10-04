@@ -6,16 +6,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #fff;
 }
 
 .container {
   display: flex;
-  align-items: center;  
+  align-items: center; 
 }
 
 .search-bar {
-  width: 600px;
+  width: 400px;
+  color: black;
 }
 
 .container button{
@@ -34,7 +34,7 @@ transition: transform 0.3s ease;
   transform: scale(1.1); 
 }
 
-@media (width <= 730px) {
+@media (width <= 700px) {
   .home-page {
     width: 100%;
     background: url(https://i.ibb.co/xfk1XBS/bg.jpg) no-repeat center
