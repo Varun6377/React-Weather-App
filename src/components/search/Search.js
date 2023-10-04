@@ -35,7 +35,7 @@ export default function Search({ onSearchChange }) {
     setSearch(searchData);
     onSearchChange(searchData);
   };
-
+  
   return (
     <AsyncPaginate
       placeholder="Search by city"
@@ -43,6 +43,7 @@ export default function Search({ onSearchChange }) {
       value={search}
       onChange={handleOnChange}
       loadOptions={loadOptions}
+      className="search-bar"
     />
   );
 }

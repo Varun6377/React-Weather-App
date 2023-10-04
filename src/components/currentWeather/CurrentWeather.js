@@ -1,3 +1,4 @@
+import React from 'react';
 import "./CurrentWeather.css";
 
 function convertTemperature(temp, toUnit) {

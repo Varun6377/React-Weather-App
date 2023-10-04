@@ -1,30 +1,40 @@
 @media (width >= 1000px) {
+  .home-page {
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://i.ibb.co/xfk1XBS/bg.jpg) no-repeat center
+      center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+  }
+
   .container {
-    max-width: 900px;
-    margin: 20px auto;
-    border: 5px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+  }
+
+  .search-bar {
+    width: 600px;
   }
 
   .container button {
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    font-size: 22px;
-    margin-top: 25px;
-    margin-bottom: 0;
-    margin-left: 340px;
-    padding: 8px 8px;
-    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transition: transform 0.3s ease;
   }
 
-  .container button:hover {
-    background-color: gray;
-    color: white;
-    margin-top: 25px;
-    margin-left: 340px;
-    padding: 8px 8px;
-    cursor: pointer;
-    border-radius: 5px;
+  .container button img {
+    width: 45px;
+    border-radius: 50px;
+  }
+
+  .container button img:hover {
+    transform: scale(1.1);
   }
 }
 
@@ -36,13 +46,13 @@
   }
 
   .container button {
-    background-color: black;
+    background-color: #212121;
     color: white;
     font-weight: 600;
     font-size: 22px;
     margin-top: 15px;
     margin-left: 200px;
-    padding: 8px 8px;
+    padding: 5px 5px;
     border-radius: 5px;
   }
 }
@@ -55,7 +65,7 @@
   }
 
   .container button {
-    background-color: black;
+    background-color: #212121;
     color: white;
     font-weight: 600;
     font-size: 22px;

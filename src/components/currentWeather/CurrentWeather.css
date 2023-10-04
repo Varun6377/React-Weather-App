@@ -1,92 +1,101 @@
 @media (width >= 1024px) {
   .weather {
-    width: 300px;
-    height: 600px;
+    width: 380px;
+    height: 320px;
     border-radius: 6px;
-    box-shadow: 10px 2px 20px 2px rgb(0 0 0 / 30%);
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
-    background-color: #333;
-    margin: 50px auto 0 auto;
-    padding: 1px 220px;
+    background-color: #212121;
+    margin: 20px auto 0 auto;
+    padding: 0 15px;
   }
-
+  
   .top,
   .bottom {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
-
+  
   .city {
     position: relative;
-    top: 40px;
-    right: 160px;
+    bottom: 5px;
+    left: 15px;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 1;
+    font-size: 20px;
+    line-height: 1.5;
     margin: 0;
     letter-spacing: 1px;
   }
-
+  
   .weather-description {
     position: relative;
-    top: 40px;
-    right: 158px;
+    bottom: 5px;
+    left: 15px;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1;
-    margin-top: 7px;
+    margin: 0;
   }
-
+  
   .weather-icon {
-    width: 120px;
-    position: relative;
-    top: 2px;
-    left: 170px;
+    width: 100px;
   }
-
+  
   .temperature {
     position: relative;
-    bottom: 120px;
-    right: 105px;
+    bottom: 75px;
+    left: 125px;
     font-weight: 600;
-    font-size: 180px;
+    font-size: 70px;
+    width: auto;
+    letter-spacing: -5px;
+    margin: 10px 0;
   }
-
+  
   .details {
-    position: absolute;
-    top: 580px;
-    left: 500px;
+    position: relative;
+    top: 35px;
+    right: 40px;
+    width: 100%;
+    padding-left: 20px;
   }
-
+  
   .parameter-row {
     display: flex;
     justify-content: space-between;
   }
-
+  
   .parameter-label {
-    font-weight: 600;
-    font-size: 26px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
   }
-
+  
   .parameter-value {
     text-align: right;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 18px;
+  }
+  
+  .parameter-label.top {
+    border-bottom: 1px solid #fff;
   }
 
   .units {
+    position: relative;
+    bottom: 120px;
+    left: 200px;
     display: flex;
     width: 0;
     height: 0;
   }
 
   .units p {
-    position: relative;
-    top: 50px;
-    left: 200px;
+    
     cursor: pointer;
     margin-right: 20px;
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .units p.active {
@@ -185,16 +194,17 @@
   }
 
   .units p {
+    position: relative;
+    top: 50px;
+    left: 200px;
     cursor: pointer;
     margin-right: 20px;
-    position: relative;
-    font-size: 24px;
-    top: 25px;
-    right: 250px;
+    font-size: 400px;
   }
 
   .units p.active {
     color: #fff;
+    background-color: none;
   }
 
   .units p:not(.active) {
@@ -203,8 +213,6 @@
 
   .pipe {
     color: #fff;
-    width: 0;
-    height: 0;
   }
 }
 
@@ -215,7 +223,7 @@
     border-radius: 6px;
     box-shadow: 10px 2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
-    background-color: #333;
+    background-color: #212121;
     margin: 20px auto 0 auto;
     padding: 1px 220px;
   }
