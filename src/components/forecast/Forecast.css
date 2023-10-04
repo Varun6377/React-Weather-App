@@ -63,3 +63,7 @@
 .daily-details-grid-item label:last-child {
   color: #fff;
 }
+
+@media (width <= 740px) {
+ 
+}

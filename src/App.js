@@ -76,7 +76,6 @@ function App() {
         <div className="container">
           <Search
             onSearchChange={handleOnSearchChange}
-            className="search-bar"
           />
           <button onClick={fetchWeatherByGeolocation}>
             <img
