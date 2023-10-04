@@ -47,7 +47,7 @@ transition: transform 0.3s ease;
   }
 
   .search-bar {
-    width: 300px;
+    width: 250px;
     color: black;
   }
 }
