@@ -118,7 +118,7 @@
     box-shadow: 10px 2px 20px 2px rgb(0 0 0 / 30%);
     color: #fff;
     background-color: #212121;
-    padding: 1px 220px;
+    padding: 1px 180px;
   }
 
   .top,
@@ -130,7 +130,7 @@
   .city {
     position: absolute;
     bottom: 480px;
-    left: 70px;
+    left: 100px;
     font-weight: 600;
     font-size: 18px;
     margin: 0;
@@ -139,8 +139,8 @@
 
   .weather-description {
     position: absolute;
-    top: 120px;
-    left: 90px;
+    top: 140px;
+    left: 100px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1;
@@ -151,7 +151,7 @@
     width: 100px;
     height: 100px;
     position: relative;
-    left: 120px;
+    left: 80px;
   }
 
   .temperature {
@@ -181,7 +181,7 @@
 
   .parameter-value {
     position: relative;
-    right: 350px;
+    right: 300px;
     font-weight: 600;
     font-size: 16.5px;
   }
